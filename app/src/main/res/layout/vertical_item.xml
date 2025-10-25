@@ -25,7 +25,7 @@
 
             <!-- Circle Image -->
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/itemImage"
+                android:id="@+id/VItemImage"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginHorizontal="8dp"
@@ -36,7 +36,7 @@
 
             <!-- Name Text -->
             <TextView
-                android:id="@+id/itemName"
+                android:id="@+id/VItemName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
@@ -44,23 +44,23 @@
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                app:layout_constraintStart_toEndOf="@id/itemImage"
-                app:layout_constraintTop_toTopOf="@id/itemImage"
+                app:layout_constraintStart_toEndOf="@id/VItemImage"
+                app:layout_constraintTop_toTopOf="@id/VItemImage"
                 app:layout_constraintEnd_toEndOf="parent" />
 
             <!-- Subtitle Text -->
             <TextView
-                android:id="@+id/itemSubtitle"
+                android:id="@+id/VItemSubtitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="subtitle"
                 android:textColor="@color/black"
                 android:textSize="12sp"
-                app:layout_constraintEnd_toEndOf="@+id/itemName"
+                app:layout_constraintEnd_toEndOf="@+id/VItemName"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/itemName"
-                app:layout_constraintTop_toBottomOf="@id/itemName" />
+                app:layout_constraintStart_toStartOf="@+id/VItemName"
+                app:layout_constraintTop_toBottomOf="@id/VItemName" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
