@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDE9E9"
+    android:background="#F6DEDE"
     android:layout_marginVertical="24dp"
     android:layout_marginHorizontal="12dp"
     tools:context=".MainActivity">
@@ -39,12 +39,12 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/verticalView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginTop="14dp"
-        tools:listitem="@layout/vertical_item"
-        app:layout_constraintEnd_toEndOf="@+id/horizontalView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/horizontalView"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalView" />
+        android:paddingBottom="40dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/vertical_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
