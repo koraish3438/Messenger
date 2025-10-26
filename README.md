@@ -10,7 +10,14 @@ A modern **Messenger-style chat UI** built using **Kotlin** and **RecyclerView**
   <img src="https://github.com/koraish3438/Messenger/raw/master/Screenshot_2025-10-25-21-43-41-94_cc27777ad130dd5725f13134dc2e387d.jpg" width="200">
   <img src="https://github.com/koraish3438/Messenger/raw/master/Screenshot_2025-10-25-21-43-09-83_cc27777ad130dd5725f13134dc2e387d.jpg" width="200">
   <img src="https://github.com/koraish3438/Messenger/raw/master/Screenshot_2025-10-25-21-43-15-28_cc27777ad130dd5725f13134dc2e387d.jpg" width="200">
-  </p>
+</p>
+
+### 🆕 Update  
+
+<p align="center">
+  <img src="https://github.com/koraish3438/Messenger/blob/3a22f033fae2f853b5b574d4c9dbe33c507b00e0/Screenshot_2025-10-26-09-45-33-84_cc27777ad130dd5725f13134dc2e387d.jpg" width="200">
+  <img src="https://github.com/koraish3438/Messenger/blob/3a22f033fae2f853b5b574d4c9dbe33c507b00e0/Screenshot_2025-10-26-09-45-36-96_cc27777ad130dd5725f13134dc2e387d.jpg" width="200">
+</p>
 
 ---
 
